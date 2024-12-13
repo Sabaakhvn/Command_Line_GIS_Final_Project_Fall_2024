@@ -34,7 +34,20 @@
             margin: 30px 0;
             font-size: 30px;
         }
-        
+        .svg-arrows {
+            position: absolute; /* Position SVG on top of the images */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* Ensure SVG doesn't block image interactions */
+        }
+        .arrow {
+            stroke: red;
+            stroke-width: 3;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
         iframe {
             border: 0;
             width: 90%; /* Make the map responsive */
@@ -49,6 +62,18 @@
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
     </div>
+    <!-- SVG Arrows -->
+        <svg class="svg-arrows">
+            <!-- Arrow marker definition -->
+            <defs>
+                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                    <polygon points="0 0, 10 3.5, 0 7" fill="red" />
+                </marker>
+            </defs>
+            <!-- Arrows -->
+            <line x1="20%" y1="50%" x2="80%" y2="50%" class="arrow"></line>
+        </svg>
+    
     <h1>Public Transit Utilization in Morris County</h1>
     <!-- Second Row -->
     <div class="image-container">
