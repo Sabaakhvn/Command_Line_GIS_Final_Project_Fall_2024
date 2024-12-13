@@ -53,8 +53,8 @@
 
         iframe {
             border: 0;
-            width: 90%; /* Make the map responsive */
-            height: 1000px; /* Adjust the height of the map */
+            width: 100%; /* Make the map responsive */
+            height: 1200px; /* Adjust the height of the map */
         }
     </style>
 </head>
