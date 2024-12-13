@@ -1,6 +1,10 @@
 # Top 10 Locations to Buy a Home in Morris County 
 
 Here is my map website!
+![Beautiful view of Morris County](New_Jersey.png)
+
+<iframe src=".html" height= "800" width= "400" ></iframe> 
+
 
 <iframe src=".html" height= "800" width= "800" ></iframe> 
 
