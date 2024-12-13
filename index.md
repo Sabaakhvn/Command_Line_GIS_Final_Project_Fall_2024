@@ -7,24 +7,32 @@
     <style>
         .image-container {
             display: flex;
-            justify-content: center; /* Center images horizontally */
-            align-items: center; /* Align images vertically */
-            gap: 20px; /* Space between images */
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 20px 0; /* Add some vertical spacing between containers */
         }
+
+        /* Style for the first row images (Morris County and New Jersey) */
         .image-container img {
-            height: auto; /* Preserve aspect ratio */
+            height: auto;
+            max-width: 400px; /* Default size for first row images */
         }
-        .public-transit {
-            max-width: 800px; /* Increase the width of Public Transit Utilization */
-            height: auto; /* Maintain aspect ratio */
-        }
-        .complete-analysis {
-            max-width: 800px; /* Increase the width of Complete Analysis */
-            height: auto; /* Maintain aspect ratio */
-        }
+
+        /* Larger size for the last three images */
+        .public-transit,
+        .complete-analysis,
         .top-10 {
-            max-width: 800px; /* Increase the width of Top 10 */
-            height: auto; /* Maintain aspect ratio */
+            max-width: 1000px !important; /* Increased from 800px to 1000px */
+            width: 100%; /* Makes image responsive */
+            height: auto;
+        }
+
+        /* Make headings consistent */
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 24px;
         }
     </style>
 </head>
@@ -35,19 +43,16 @@
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
     </div>
-
     <h1>Public Transit Utilization in Morris County</h1>
     <!-- Second Row -->
     <div class="image-container">
         <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization in Morris County" class="public-transit">
     </div>
-
     <h1>15 Minutes Walking Buffers from Schools and Transit Stops in Morris County</h1>
     <!-- Third Row -->
     <div class="image-container">   
         <img src="Complete_Analysis.png" alt="15 Minutes Walking Buffers from Schools and Transit Stops in Morris County" class="complete-analysis">
     </div>   
-
     <h1>Top 10 Locations for Accessibility in Morris County</h1>
     <!-- Fourth Row -->
     <div class="image-container">     
