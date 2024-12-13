@@ -16,7 +16,7 @@
 
         .image-container img {
             height: auto;
-            max-width: 400px;
+            max-width: 600px;
             position: relative;
             z-index: 1;
         }
@@ -24,7 +24,7 @@
         .public-transit,
         .complete-analysis,
         .top-10 {
-            max-width: 1000px !important;
+            max-width: 900px !important;
             width: 100%;
             height: auto;
         }
@@ -32,7 +32,7 @@
         h1 {
             text-align: center;
             margin: 30px 0;
-            font-size: 24px;
+            font-size: 30px;
         }
 
         .arrow-container {
