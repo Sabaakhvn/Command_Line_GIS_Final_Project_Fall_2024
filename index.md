@@ -8,11 +8,17 @@
         .image-container {
             display: flex;
             justify-content: center; /* Center images horizontally */
+            align-items: center; /* Align images vertically */
             gap: 20px; /* Space between images */
         }
         .image-container img {
-            max-width: 45%; /* Adjust width as needed */
-            height: auto; /* Maintain aspect ratio */
+            height: auto; /* Preserve aspect ratio */
+        }
+        .image-container img:first-child {
+            width: auto; /* Keep Morris County image aspect ratio */
+        }
+        .image-container img:last-child {
+            max-width: 400px; /* Set specific width for New Jersey */
         }
     </style>
 </head>
