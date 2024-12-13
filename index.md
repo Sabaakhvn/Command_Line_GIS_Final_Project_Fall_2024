@@ -36,13 +36,13 @@
         <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization in Morris County">
     </div>
 
-    <h1>15 Minutes Walking Buffers from Schools and Transit Stops in Morris County</h1>
+<h1>15 Minutes Walking Buffers from Schools and Transit Stops in Morris County</h1>
     <!-- Third Row -->
     <div class="image-container">   
         <img src="Complete_Analysis.png" alt="15 Minutes Walking Buffers from Schools and Transit Stops in Morris County">
     </div>   
 
-    <h1>Top 10 Locations for Accessibility in Morris County</h1>
+<h1>Top 10 Locations for Accessibility in Morris County</h1>
     <!-- Forth Row -->
     <div class="image-container">     
         <img src="Top_10.png" alt="Top 10 Locations for Accessibility in Morris County">
