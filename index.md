@@ -16,14 +16,14 @@
         /* Style for the first row images (Morris County and New Jersey) */
         .image-container img {
             height: auto;
-            max-width: 500px; /* Default size for first row images */
+            max-width: 600px; /* Default size for first row images */
         }
 
         /* Larger size for the last three images */
         .public-transit,
         .complete-analysis,
         .top-10 {
-            max-width: 1000px !important; /* Increased from 800px to 1000px */
+            max-width: 800px !important; /* Increased from 800px to 1000px */
             width: 100%; /* Makes image responsive */
             height: auto;
         }
@@ -32,7 +32,7 @@
         h1 {
             text-align: center;
             margin: 30px 0;
-            font-size: 24px;
+            font-size: 28px;
         }
     </style>
 </head>
