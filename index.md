@@ -32,13 +32,13 @@
         h1 {
             text-align: center;
             margin: 30px 0;
-            font-size: 28px;
+            font-size: 30px;
         }
         
         iframe {
             border: 0;
             width: 90%; /* Make the map responsive */
-            height: 600px; /* Adjust the height of the map */
+            height: 900px; /* Adjust the height of the map */
         }
     </style>
 </head>
@@ -65,7 +65,7 @@
         <img src="Top_10.png" alt="Top 10 Locations for Accessibility in Morris County" class="top-10">
     </div>
 
-    <h1>Interactive Map</h1>
+    <h1>Morris County Interactive Map</h1>
     <!-- Map Section -->
     <div class="map-container">
         <iframe src="morris_county_comprehensive_analysis.html" title="Morris County Interactive Map"></iframe>
@@ -74,9 +74,3 @@
 </html>
 
 
- 
-
-
-<iframe src=".html" height= "600" width= "600" ></iframe> 
-
-You can explore this map [as its own web page here](morris_county_comprehensive_analysis.html).
