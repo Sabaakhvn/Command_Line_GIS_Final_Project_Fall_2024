@@ -18,7 +18,21 @@
             width: auto; /* Keep Morris County image aspect ratio */
         }
         .image-container img:last-child {
-            max-width: 400px; /* Set specific width for New Jersey */
+            max-width: 500px; /* Set specific width for New Jersey */
+        }
+        
+        /* Specific styling for individual images */
+        img[src="Public_Transit_Utilization.png"] {
+            max-width: 800px; /* Increase the width of Public Transit Utilization */
+            height: auto; /* Keep aspect ratio */
+        }
+        img[src="Complete_Analysis.png"] {
+            max-width: 800px; /* Increase the width of Complete Analysis */
+            height: auto; /* Keep aspect ratio */
+        }
+        img[src="Top_10.png"] {
+            max-width: 800px; /* Increase the width of Top 10 */
+            height: auto; /* Keep aspect ratio */
         }
     </style>
 </head>
