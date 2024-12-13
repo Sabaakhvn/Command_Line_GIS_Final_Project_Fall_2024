@@ -33,13 +33,7 @@
     </div>
 </body>
 </html>
-
-
-
-
-![Beautiful view of Morris County](New_Jersey.png)
-
-<iframe src=".html" height= "400" width= "200" ></iframe> 
+ 
 
 
 <iframe src=".html" height= "600" width= "600" ></iframe> 
