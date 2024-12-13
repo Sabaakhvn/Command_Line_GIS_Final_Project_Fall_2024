@@ -11,14 +11,14 @@
             align-items: center;
             gap: 20px;
             margin: 20px 0;
-            position: relative; /* For positioning the arrow */
+            position: relative;
         }
 
         .image-container img {
             height: auto;
             max-width: 400px;
-            position: relative; /* For z-index */
-            z-index: 1; /* Place images above arrow */
+            position: relative;
+            z-index: 1;
         }
 
         .public-transit,
@@ -35,20 +35,18 @@
             font-size: 24px;
         }
 
-        /* Arrow container styling */
         .arrow-container {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            pointer-events: none; /* Allows clicking through the arrow */
+            pointer-events: none;
         }
 
-        /* SVG arrow styling */
         .arrow {
-            stroke: #ff4444;
-            stroke-width: 3;
+            stroke: #ff0000;
+            stroke-width: 4;
             fill: none;
             marker-end: url(#arrowhead);
         }
@@ -56,24 +54,22 @@
 </head>
 <body>
     <h1>Morris County and New Jersey Boundaries</h1>
-    <!-- First Row with Arrow -->
     <div class="image-container">
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
         
         <!-- SVG Arrow -->
         <svg class="arrow-container">
-            <!-- Arrow definition -->
             <defs>
                 <marker id="arrowhead" markerWidth="10" markerHeight="7" 
                 refX="9" refY="3.5" orient="auto">
-                    <polygon points="0 0, 10 3.5, 0 7" fill="#ff4444"/>
+                    <polygon points="0 0, 10 3.5, 0 7" fill="#ff0000"/>
                 </marker>
             </defs>
             
-            <!-- Curved arrow path -->
+            <!-- Curved arrow path pointing from NJ to Morris County -->
             <path class="arrow" 
-                  d="M 420 200 C 470 200, 470 150, 420 150" />
+                  d="M 380 200 C 300 200, 300 250, 380 250" />
         </svg>
     </div>
 
