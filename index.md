@@ -27,6 +27,9 @@
     <div class="image-container">
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
+        <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization Pattern in Morris County ">
+        <img src="Complete_Analysis.png" alt="Walking Buffers from Schools and Transit Stops in Morris County">
+        <img src="Top_10.png" alt="Top 10 Tracts for Accessibility">
     </div>
 </body>
 </html>
