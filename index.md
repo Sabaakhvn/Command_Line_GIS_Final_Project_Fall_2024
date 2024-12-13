@@ -23,7 +23,7 @@
         .public-transit,
         .complete-analysis,
         .top-10 {
-            max-width: 800px !important; /* Increased from 800px to 1000px */
+            max-width: 900px !important; /* Increased from 800px to 900px */
             width: 100%; /* Makes image responsive */
             height: auto;
         }
