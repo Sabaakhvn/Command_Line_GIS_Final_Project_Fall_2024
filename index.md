@@ -11,13 +11,13 @@
             gap: 20px; /* Space between images */
         }
         .image-container img {
-            max-width: 100%; /* Scale images responsively */
-            height: auto; /* Keep aspect ratio */
+            max-width: 45%; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
 <body>
-    <h1> Top 10 Locations to Buy a Home in Morris County </h1>
+    <h1>Morris County and New Jersey Boundaries</h1>
     <div class="image-container">
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
