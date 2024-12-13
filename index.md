@@ -3,7 +3,7 @@
 Here is my map website!
 ![Beautiful view of Morris County](New_Jersey.png)
 
-<iframe src=".html" height= "800" width= "400" ></iframe> 
+<iframe src=".html" height= "600" width= "300" ></iframe> 
 
 
 <iframe src=".html" height= "800" width= "800" ></iframe> 
