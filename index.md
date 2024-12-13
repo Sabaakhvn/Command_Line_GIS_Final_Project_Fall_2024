@@ -22,14 +22,20 @@
         }
     </style>
 </head>
-<body>
-    <h1>Morris County and New Jersey Boundaries</h1>
+<h1>Morris County and New Jersey Boundaries</h1>
+    
+    <!-- First Row -->
     <div class="image-container">
         <img src="Morris_County.png" alt="Morris County Boundaries">
         <img src="New_Jersey.png" alt="New Jersey Boundaries">
-        <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization Pattern in Morris County ">
-        <img src="Complete_Analysis.png" alt="Walking Buffers from Schools and Transit Stops in Morris County">
-        <img src="Top_10.png" alt="Top 10 Tracts for Accessibility">
+    </div>
+
+<h1>Public Transit Utilization in Morris County</h1>
+    <!-- Second Row -->
+    <div class="image-container">
+        <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization in Morris County">
+        <img src="Complete Analysis.png" alt="15 Minutes Walking Buffers from Schools and Transit Stops">
+        <img src="Top_10.png" alt="Top 10 Locations for Accessibility">
     </div>
 </body>
 </html>
