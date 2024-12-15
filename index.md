@@ -71,12 +71,12 @@
         <div>
             <img src="Morris_County.png" alt="Morris County Boundaries">
             <img src="New_Jersey.png" alt="New Jersey Boundaries">
-          <div class="description">
-            <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
-          </div>
         </div>
         
-        
+    <div class="description">
+        <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
+    </div>
+          
         <!-- SVG Arrow -->
         <svg class="arrow-container">
             <defs>
