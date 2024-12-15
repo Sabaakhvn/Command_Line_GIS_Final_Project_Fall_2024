@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side-by-Side Images with Arrow</title>
     <style>
+        /* Set the background color to black */
+        body {
+            background-color: black;
+            color: white; /* Set text color to white for readability */
+            #font-family: Arial, sans-serif; /* Optional: Add a clean font */
+        }
+        
         .image-container {
             display: flex;
             justify-content: center;
