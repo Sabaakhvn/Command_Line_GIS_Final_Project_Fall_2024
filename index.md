@@ -75,10 +75,9 @@
 <body>
     <h1>Morris County and New Jersey Boundaries</h1>
     <div class="image-container">
-        <div>
             <img src="Morris_County.png" alt="Morris County Boundaries">
             <img src="New_Jersey.png" alt="New Jersey Boundaries">
-        </div>
+        
         
     <div class="description">
         <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
