@@ -95,7 +95,11 @@
 
     <!-- Description -->
     <div class="description">
-        <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
+        <p>For my project on identifying the optimal location to purchase a home in New Jersey, I utilized multiple datasets sourced from the New Jersey Geographic Information Network (NJGIN) and the American Community Survey (ACS). The primary dataset, containing information on median income, home values, and residential property taxes at the census tract level, was obtained from NJGIN. This GeoJSON served as the foundational layer for spatial analysis and was enriched with additional demographic variables from the ACS, including population and commuting statistics, through table joins and data aggregation.
+
+Datasets detailing school point locations, bus stops by transit line, and rail stations were also sourced from NJGIN to assess accessibility and quality-of-life factors. These datasets, updated as recently as 2023 and 2024 and provided in shapefile and GeoJSON format, were spatially joined to census tracts to integrate information on public transportation and proximity to schools.
+
+From the ACS, I incorporated variables such as the total number of workers over 16 years old (B08101_001) and the number of workers commuting via public transportation (B08101_025) to evaluate commuting patterns and accessibility. Additionally, I calculated population density by deriving the area of each census tract in square miles from its geometry and dividing the total population by this area. This metric provided deeper insights into population distribution across tracts and its relationship with other socioeconomic factors.</p>
     </div>
         
     <h1>Public Transit Utilization in Morris County</h1>
