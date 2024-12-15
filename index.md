@@ -77,11 +77,6 @@
     <div class="image-container">
             <img src="Morris_County.png" alt="Morris County Boundaries">
             <img src="New_Jersey.png" alt="New Jersey Boundaries">
-        
-        
-    <div class="description">
-        <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
-    </div>
           
         <!-- SVG Arrow -->
         <svg class="arrow-container">
@@ -96,6 +91,11 @@
             <path class="arrow" 
                   d="M 380 200 C 300 200, 300 250, 380 250" />
         </svg>
+
+        <!-- Description -->
+        <div class="description">
+            <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
+        </div>
     </div>
 
     <h1>Public Transit Utilization in Morris County</h1>
