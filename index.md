@@ -110,6 +110,14 @@ As part of the final interactive map, I created heatmaps to visually represent m
         <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization in Morris County" class="public-transit">
     </div>
 
+    <!-- Description -->
+    <div class="description">
+        <p> The attached map titled "Public Transportation Utilization in Morris County" visualizes the percentage of workers aged 16 and older who commute via public transportation across census tracts. Using data from the American Community Survey (ACS) 5-Year Estimates, two variables were analyzed: Total Workers (B08101_001) and Public Transit Commuters (B08101_025). The percentage of public transit commuters was calculated and mapped, with tracts shaded according to utilization levels. To ensure data reliability, the Coefficient of Variation (CV) was used as a precision measure, with tracts having a CV above 40% flagged with hatched patterns to indicate lower reliability. Census tracts with missing data were distinctly marked in gray. The choropleth map effectively highlights variations in public transit usage, with darker shades indicating higher utilization rates and lighter shades representing lower percentages. </p>
+     </div>
+
+
+
+
     <h1>15 Minutes Walking Buffers from Schools and Transit Stops in Morris County</h1>
     <div class="image-container">   
         <img src="Complete_Analysis.png" alt="15 Minutes Walking Buffers from Schools and Transit Stops in Morris County" class="complete-analysis">
