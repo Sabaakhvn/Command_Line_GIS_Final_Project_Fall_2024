@@ -132,7 +132,7 @@ This set of maps provides a geographic analysis of accessibility within a city, 
     
     <!-- Description -->
     <div class="description">
-
+This map provides a comprehensive analysis of accessibility coverage in Morris County, focusing on transit stops and schools at the census tract level. The Transit Coverage by Tract (top-left) and School Coverage by Tract (top-right) panels depict the percentage of each tract within a 15-minute walking buffer from transit stops and schools, respectively, with darker red shades indicating higher coverage. The Combined Coverage Score (bottom-left) integrates both transit and school coverage into a single metric, highlighting areas with the best overall accessibility. Finally, the Top 10 Tracts for Accessibility (bottom-right) identifies the ten census tracts with the highest combined scores, marking them in red and numbering them for clarity. 
     </div>
  
     <h1>Morris County Interactive Map</h1>
