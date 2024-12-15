@@ -23,7 +23,7 @@
 
         .image-container img {
             height: auto;
-            max-width: 500px;
+            max-width: 600px;
             position: relative;
             z-index: 1;
         }
