@@ -29,10 +29,10 @@
         }
 
         .description {
-            text-align: center;
+            text-align: left;
             margin-top: 10px;
             font-size: 16px;
-            color: #555;
+            color: #FFF;
         }
         
         .public-transit,
