@@ -20,14 +20,14 @@
 
         .student-info {
             margin: 5px 0;
-            font-size: 22px;
+            font-size: 24px;
             font-weight: bold
             line-height: 1.6;
             color: #FFF;
         }
 
         .school-info {
-            font-size: 16px;
+            font-size: 18px;
             color: #FFF;
         }
         .image-container {
