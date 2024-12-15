@@ -49,22 +49,6 @@
             font-size: 30px;
         }
 
-        .arrow-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-        }
-
-        .arrow {
-            stroke: #ff0000;
-            stroke-width: 4;
-            fill: none;
-            marker-end: url(#arrowhead);
-        }
-
         iframe {
             border: 0;
             width: 100%; /* Make the map responsive */
@@ -77,20 +61,6 @@
     <div class="image-container">
             <img src="Morris_County.png" alt="Morris County Boundaries">
             <img src="New_Jersey.png" alt="New Jersey Boundaries">
-          
-        <!-- SVG Arrow -->
-        <svg class="arrow-container">
-            <defs>
-                <marker id="arrowhead" markerWidth="10" markerHeight="7" 
-                refX="9" refY="3.5" orient="auto">
-                    <polygon points="0 0, 10 3.5, 0 7" fill="#ff0000"/>
-                </marker>
-            </defs>
-            
-            <!-- Curved arrow path pointing from NJ to Morris County -->
-            <path class="arrow" 
-                  d="M 380 200 C 300 200, 300 250, 380 250" />
-        </svg>
     </div>
 
     <!-- Description -->
