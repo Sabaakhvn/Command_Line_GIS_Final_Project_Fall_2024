@@ -14,7 +14,7 @@
         /* Student information header styles */
         .student-header {
             text-align: left;
-            padding: 20px 0;
+            padding: 10px 0;
             margin-bottom: 20px;
         }
 
@@ -27,7 +27,7 @@
         }
 
         .school-info {
-            font-size: 18px;
+            font-size: 16px;
             color: #FFF;
         }
         .image-container {
