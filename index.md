@@ -92,7 +92,7 @@ As part of the final interactive map, I created heatmaps to visually represent m
     
     <!-- Description -->
     <div class="description">
-This map provides a comprehensive spatial analysis of accessibility in Morris County by examining 15-minute walking buffers from transit stops and schools. The top-left panel shows areas within a 15-minute walk of transit stops (highlighted in red), while the top-right panel displays similar walking buffers from schools (marked in green). The bottom-left panel combines these buffers, visualizing areas with overlapping accessibility to both transit and schools. Finally, the bottom-right panel integrates all data layers into a complete analysis, clearly illustrating transit stops, schools, and their respective buffers to identify regions with strong accessibility coverage and gaps. 
+This map provides a comprehensive spatial analysis of accessibility in Morris County by examining 15-minute walking buffers from transit stops and schools. The top-left panel shows areas within a 15-minute walk of transit stops (highlighted in blue), while the top-right panel displays similar walking buffers from schools (marked in green). The bottom-left panel combines these buffers, visualizing areas with overlapping accessibility to both transit and schools. Finally, the bottom-right panel integrates all data layers into a complete analysis, clearly illustrating transit stops, schools, and their respective buffers to identify regions with strong accessibility coverage and gaps. 
     </div>
     
     <h1>Top 10 Locations for Accessibility in Morris County</h1>
