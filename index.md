@@ -46,7 +46,7 @@
         h1 {
             text-align: center;
             margin: 30px 0;
-            font-size: 36px;
+            font-size: 38px;
         }
 
         iframe {
