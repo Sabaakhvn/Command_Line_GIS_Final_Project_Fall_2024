@@ -16,7 +16,7 @@
 
         .image-container img {
             height: auto;
-            max-width: 600px;
+            max-width: 500px;
             position: relative;
             z-index: 1;
         }
