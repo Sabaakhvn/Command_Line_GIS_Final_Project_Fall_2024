@@ -77,6 +77,15 @@
     </style>
 </head>
 <body>
+    <!-- Student Information Header -->
+    <div class="student-header">
+        <p class="student-info">Saba Akhavansadr</p>
+        <p class="student-info">Command Line GIS</p>
+        <p class="student-info">Fall 2024</p>
+        <p class="student-info">Professor Payne</p>
+        <p class="student-info school-name">Bloustein School of Planning and Public Policy</p>
+    </div>
+    
     <h1>Morris County and New Jersey Boundaries</h1>
     <div class="image-container">
             <img src="Morris_County.png" alt="Morris County Boundaries">
