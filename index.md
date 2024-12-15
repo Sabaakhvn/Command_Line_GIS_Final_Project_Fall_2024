@@ -11,6 +11,27 @@
             #font-family: Arial, sans-serif; /* Optional: Add a clean font */
         }
         
+        /* Student information header styles */
+        .student-header {
+            text-align: left;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            background-color: #f8f8f8;
+        }
+
+        .student-info {
+            margin: 5px 0;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .school-name {
+            font-weight: bold;
+            font-size: 20px;
+            color: #1a1a1a;
+        }
         .image-container {
             display: flex;
             justify-content: center;
