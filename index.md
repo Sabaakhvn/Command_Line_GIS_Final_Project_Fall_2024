@@ -27,7 +27,7 @@
             color: #FFF;
         }
 
-        .school-name {
+        .school-info {
             font-size: 18px;
             color: #FFF;
         }
@@ -79,10 +79,10 @@
     <!-- Student Information Header -->
     <div class="student-header">
         <p class="student-info">Saba Akhavansadr</p>
-        <p class="student-info">Command Line GIS</p>
-        <p class="student-info">Fall 2024</p>
-        <p class="student-info">Professor Payne</p>
-        <p class="student-info school-name">Bloustein School of Planning and Public Policy</p>
+        <p class="student-info school-info">Command Line GIS</p>
+        <p class="student-info school-info">Fall 2024</p>
+        <p class="student-info school-info">Professor Payne</p>
+        <p class="student-info school-info">Bloustein School of Planning and Public Policy</p>
     </div>
     
     <h1>Morris County and New Jersey Boundaries</h1>
