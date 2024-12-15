@@ -15,8 +15,7 @@
         .student-header {
             text-align: left;
             padding: 20px 0;
-            margin-bottom: 30px;
-            border-bottom: 2px solid #333;
+            margin-bottom: 20px;
         }
 
         .student-info {
@@ -81,7 +80,7 @@
         <p class="student-info">Saba Akhavansadr</p>
         <p class="student-info school-info">Command Line GIS</p>
         <p class="student-info school-info">Fall 2024</p>
-        <p class="student-info school-info">Professor Payne</p>
+        <p class="student-info school-info">Professor Will Payne</p>
         <p class="student-info school-info">Bloustein School of Planning and Public Policy</p>
     </div>
     
