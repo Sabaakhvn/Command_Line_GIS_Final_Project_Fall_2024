@@ -91,13 +91,13 @@
             <path class="arrow" 
                   d="M 380 200 C 300 200, 300 250, 380 250" />
         </svg>
+    </div>
 
-        <!-- Description -->
+    <!-- Description -->
         <div class="description">
             <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
         </div>
-    </div>
-
+        
     <h1>Public Transit Utilization in Morris County</h1>
     <div class="image-container">
         <img src="Public_Transit_Utilization.png" alt="Public Transit Utilization in Morris County" class="public-transit">
