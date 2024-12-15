@@ -99,7 +99,9 @@
 
 Datasets detailing school point locations, bus stops by transit line, and rail stations were also sourced from NJGIN to assess accessibility and quality-of-life factors. These datasets, updated as recently as 2023 and 2024 and provided in shapefile and GeoJSON format, were spatially joined to census tracts to integrate information on public transportation and proximity to schools.
 
-From the ACS, I incorporated variables such as the total number of workers over 16 years old (B08101_001) and the number of workers commuting via public transportation (B08101_025) to evaluate commuting patterns and accessibility. Additionally, I calculated population density by deriving the area of each census tract in square miles from its geometry and dividing the total population by this area. This metric provided deeper insights into population distribution across tracts and its relationship with other socioeconomic factors.</p>
+From the ACS, I incorporated variables such as the total number of workers over 16 years old (B08101_001) and the number of workers commuting via public transportation (B08101_025) to evaluate commuting patterns and accessibility. Additionally, I calculated population density by deriving the area of each census tract in square miles from its geometry and dividing the total population by this area. This metric provided deeper insights into population distribution across tracts and its relationship with other socioeconomic factors.
+
+As part of the final interactive map, I created heatmaps to visually represent median income and population density across the state. These heatmaps provided an intuitive way to identify spatial patterns and disparities, helping to highlight areas that align with the project's criteria for optimal residential locations.</p>
     </div>
         
     <h1>Public Transit Utilization in Morris County</h1>
