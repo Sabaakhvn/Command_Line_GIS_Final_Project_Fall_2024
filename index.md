@@ -21,6 +21,13 @@
             z-index: 1;
         }
 
+        .description {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
+        
         .public-transit,
         .complete-analysis,
         .top-10 {
@@ -61,8 +68,20 @@
 <body>
     <h1>Morris County and New Jersey Boundaries</h1>
     <div class="image-container">
-        <img src="Morris_County.png" alt="Morris County Boundaries">
-        <img src="New_Jersey.png" alt="New Jersey Boundaries">
+        <!-- Morris County Map -->
+        <div>
+            <img src="Morris_County.png" alt="Morris County Boundaries">
+            <div class="description">
+                <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
+            </div>
+        <!-- New Jersey Map -->
+        <div>
+            <img src="New_Jersey.png" alt="New Jersey Boundaries">
+            <div class="description">
+                <p>This map highlights the boundaries of New Jersey's counties, with Morris County emphasized in red.</p>
+            </div>
+        </div>
+        
         
         <!-- SVG Arrow -->
         <svg class="arrow-container">
