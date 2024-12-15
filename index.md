@@ -94,9 +94,9 @@
     </div>
 
     <!-- Description -->
-        <div class="description">
-            <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
-        </div>
+    <div class="description">
+        <p>This map provides a detailed view of Morris County, including its municipalities and key boundaries.</p>
+    </div>
         
     <h1>Public Transit Utilization in Morris County</h1>
     <div class="image-container">
