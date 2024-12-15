@@ -17,20 +17,19 @@
             padding: 20px 0;
             margin-bottom: 30px;
             border-bottom: 2px solid #333;
-            background-color: #f8f8f8;
         }
 
         .student-info {
             margin: 5px 0;
-            font-size: 18px;
+            font-size: 22px;
+            font-weight: bold
             line-height: 1.6;
-            color: #333;
+            color: #FFF;
         }
 
         .school-name {
-            font-weight: bold;
-            font-size: 20px;
-            color: #1a1a1a;
+            font-size: 18px;
+            color: #FFF;
         }
         .image-container {
             display: flex;
