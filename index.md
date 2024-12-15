@@ -138,6 +138,8 @@ This map provides a comprehensive analysis of accessibility coverage in Morris C
     <div class="map-container">
         <iframe src="morris_county_comprehensive_analysis.html" title="Interactive Map"></iframe>
     </div>
-    You can explore this map [as its own web page here](morris_county_comprehensive_analysis.html).
+    
+    <p>You can explore this map 
+        <a href="morris_county_comprehensive_analysis.html" target="_blank">as its own web page here</a>.</p>
 </body>
 </html>
