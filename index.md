@@ -119,15 +119,20 @@ As part of the final interactive map, I created heatmaps to visually represent m
     <div class="image-container">   
         <img src="Complete_Analysis.png" alt="15 Minutes Walking Buffers from Schools and Transit Stops in Morris County" class="complete-analysis">
     </div>   
-
+    
+    <!-- Description -->
+    <div class="description">
+This set of maps provides a geographic analysis of accessibility within a city, focusing on 15-minute walking distances from transit stops and schools. The top left map displays buffer zones from transit stops highlighted with red lines, while the top right map shows similar buffers around schools, marked in green. The bottom left map merges these buffers, highlighting areas with overlapping access to both schools and transit stops in green. The bottom right map offers a complete analysis, overlaying all data including transit stop and school locations with respective buffers, effectively illustrating areas of the city with optimal accessibility based on walking distance. Each map uses a detailed base layer depicting city boundaries and streets to enhance the understanding of urban layout in relation to accessibility.
+    </div>
+    
     <h1>Top 10 Locations for Accessibility in Morris County</h1>
     <div class="image-container">     
         <img src="Top_10.png" alt="Top 10 Locations for Accessibility in Morris County" class="top-10">
     </div>
-
+    
     <!-- Description -->
     <div class="description">
-This set of maps provides a geographic analysis of accessibility within a city, focusing on 15-minute walking distances from transit stops and schools. The top left map displays buffer zones from transit stops highlighted with red lines, while the top right map shows similar buffers around schools, marked in green. The bottom left map merges these buffers, highlighting areas with overlapping access to both schools and transit stops in green. The bottom right map offers a complete analysis, overlaying all data including transit stop and school locations with respective buffers, effectively illustrating areas of the city with optimal accessibility based on walking distance. Each map uses a detailed base layer depicting city boundaries and streets to enhance the understanding of urban layout in relation to accessibility.
+
     </div>
  
     <h1>Morris County Interactive Map</h1>
