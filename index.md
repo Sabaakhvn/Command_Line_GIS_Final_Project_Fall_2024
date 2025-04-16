@@ -94,8 +94,8 @@
             text-align: center;
             margin: 30px 0;
             font-size: 38px;
-            color: #fff;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            color: #2c3e50;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
             position: relative;
             padding-bottom: 10px;
         }
@@ -108,7 +108,7 @@
             transform: translateX(-50%);
             width: 100px;
             height: 3px;
-            background: #fff;
+            background: #2c3e50;
             border-radius: 2px;
         }
 
