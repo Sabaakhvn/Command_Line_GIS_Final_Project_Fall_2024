@@ -53,8 +53,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 20px;
-            margin: 50px 0;
+            gap: 30px;
+            margin: 30px 0;
             position: relative;
             flex-wrap: wrap;
         }
