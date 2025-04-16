@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Side-by-Side Images with Arrow</title>
     <style>
-        /* Set the background to a color similar to the map palette */
+        /* Set the background to a light blue gradient palette */
         body {
-            background: linear-gradient(135deg, #ffb6c1, #ff9a9e);
+            background: linear-gradient(135deg, #EFF8FF, #C8EFFE);
             color: #2c3e50; /* Dark text for readability */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -124,7 +124,7 @@
         .navigation {
             position: sticky;
             top: 0;
-            background-color: rgba(44, 62, 80, 0.9);
+            background-color: #2c3e50;
             padding: 15px;
             border-radius: 0 0 10px 10px;
             margin-bottom: 20px;
@@ -160,7 +160,7 @@
         
         .progress-bar {
             height: 5px;
-            background: #e74c3c;
+            background: #2c3e50;
             width: 0%;
         }
         
@@ -169,7 +169,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background-color: #e74c3c;
+            background-color: #2c3e50;
             color: white;
             width: 50px;
             height: 50px;
