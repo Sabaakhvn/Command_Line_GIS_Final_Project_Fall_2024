@@ -10,6 +10,14 @@
             color: #2c3e50; /* Dark text for readability */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
+            padding: 0;
+        }
+        
+        /* Container for page content to center everything */
+        .container {
+            max-width: 1600px;
+            width: 100%;
+            margin: 0 auto;
             padding: 20px;
         }
         
@@ -17,7 +25,9 @@
         .student-header {
             text-align: left;
             padding: 20px;
-            margin-bottom: 30px;
+            margin: 0 auto 30px;
+            max-width: 1400px; /* Increased from default */
+            width: 95%; /* Take up more of the viewport width */
             background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -40,13 +50,24 @@
             background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
             padding: 20px;
-            margin-bottom: 30px;
+            margin: 0 auto 30px;
+            max-width: 1400px; /* Increased from default */
+            width: 95%; /* Take up more of the viewport width */
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
         
         .content-section:hover {
             transform: translateY(-5px);
+        }
+        
+        /* Add a project title style */
+        .project-title {
+            text-align: center;
+            font-size: 32px;
+            color: #2c3e50;
+            margin: 10px 0 30px;
+            font-weight: bold;
         }
 
         .image-container {
@@ -120,14 +141,15 @@
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
         }
         
-        /* Navigation menu */
         .navigation {
             position: sticky;
             top: 0;
             background-color: #2c3e50;
             padding: 15px;
             border-radius: 0 0 10px 10px;
-            margin-bottom: 20px;
+            margin: 0 auto 20px;
+            max-width: 1400px; /* Match content width */
+            width: 95%; /* Take up more of the viewport width */
             z-index: 100;
             display: flex;
             justify-content: center;
@@ -205,30 +227,35 @@
     </style>
 </head>
 <body>
-    <!-- Progress bar -->
-    <div class="progress-container">
-        <div class="progress-bar" id="progressBar"></div>
-    </div>
-    
-    <!-- Navigation menu -->
-    <div class="navigation">
-        <a href="#student-info">Student Info</a>
-        <a href="#county-boundaries">County Boundaries</a>
-        <a href="#transit-utilization">Transit Utilization</a>
-        <a href="#walking-buffers">Walking Buffers</a>
-        <a href="#top-locations">Top Locations</a>
-        <a href="#interactive-map">Interactive Map</a>
-    </div>
-    
-    <!-- Student Information Header -->
-    <div class="student-header" id="student-info">
-        <p class="student-info">Saba Akhavansadr</p>
-        <p class="student-info school-info">Command Line GIS</p>
-        <p class="student-info school-info">Fall 2024</p>
-        <p class="student-info school-info">Professor Will Payne</p>
-        <p class="student-info school-info">Bloustein School of Planning and Public Policy</p>
-        <p class="student-info school-info">Rutgers University, New Brunswick, NJ</p>
-    </div>
+    <!-- Wrapper container -->
+    <div class="container">
+        <!-- Progress bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <!-- Navigation menu -->
+        <div class="navigation">
+            <a href="#student-info">Student Info</a>
+            <a href="#county-boundaries">County Boundaries</a>
+            <a href="#transit-utilization">Transit Utilization</a>
+            <a href="#walking-buffers">Walking Buffers</a>
+            <a href="#top-locations">Top Locations</a>
+            <a href="#interactive-map">Interactive Map</a>
+        </div>
+        
+        <!-- Project Title -->
+        <h1 class="project-title">Command Line GIS Final Project Fall 2024</h1>
+        
+        <!-- Student Information Header -->
+        <div class="student-header" id="student-info">
+            <p class="student-info">Saba Akhavansadr</p>
+            <p class="student-info school-info">Command Line GIS</p>
+            <p class="student-info school-info">Fall 2024</p>
+            <p class="student-info school-info">Professor Will Payne</p>
+            <p class="student-info school-info">Bloustein School of Planning and Public Policy</p>
+            <p class="student-info school-info">Rutgers University, New Brunswick, NJ</p>
+        </div>
     
     <section class="content-section" id="county-boundaries">
         <h1>Morris County and New Jersey Boundaries</h1>
@@ -312,6 +339,7 @@ As part of the final interactive map, I created heatmaps to visually represent m
     
     <!-- Back to top button -->
     <div class="back-to-top" id="backToTop">↑</div>
+    </div><!-- End of container div -->
     
     <script>
         // Progress bar
