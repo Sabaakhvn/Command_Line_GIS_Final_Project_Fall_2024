@@ -81,7 +81,8 @@
         <p class="student-info school-info">Command Line GIS</p>
         <p class="student-info school-info">Fall 2024</p>
         <p class="student-info school-info">Professor Will Payne</p>
-        <p class="student-info school-info">Bloustein School of Planning and Public Policy, Rutgers University</p>
+        <p class="student-info school-info">Bloustein School of Planning and Public Policy</p>
+        <p class="Rutgers University, New Brunswick, NJ </p>
     </div>
     
     <h1>Morris County and New Jersey Boundaries</h1>
