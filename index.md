@@ -54,7 +54,7 @@
             justify-content: center;
             align-items: center;
             gap: 20px;
-            margin: 20px 0;
+            margin: 50px 0;
             position: relative;
             flex-wrap: wrap;
         }
